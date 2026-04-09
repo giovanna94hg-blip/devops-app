@@ -14,5 +14,4 @@ jobs:
       - name: Build Docker
         run: docker build -t devops-app .
 
-      - name: Run container
-        run: docker run devops-app
+     
